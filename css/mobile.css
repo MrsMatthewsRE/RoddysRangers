@@ -1,0 +1,78 @@
+@media (max-width: 700px) {
+
+  body {
+    padding-bottom: 82px;
+  }
+
+  .top-header {
+    min-height: 68px;
+    padding: 10px 14px;
+  }
+
+  .club-badge {
+    width: 42px;
+    height: 42px;
+  }
+
+  .club-brand h1 {
+    font-size: 17px;
+  }
+
+  .club-brand p {
+    font-size: 11px;
+  }
+
+  .home-container {
+    width: min(100% - 20px, 650px);
+    margin-top: 12px;
+  }
+
+  .card {
+    border-radius: 14px;
+    padding: 15px;
+  }
+
+  .match-versus {
+    gap: 10px;
+  }
+
+  .team-circle {
+    width: 46px;
+    height: 46px;
+  }
+
+  .latest-result {
+    gap: 8px;
+    font-size: 13px;
+  }
+
+  .league-position {
+    font-size: 38px;
+  }
+
+  .leader-grid {
+    gap: 7px;
+  }
+
+  .leader-card {
+    min-height: 135px;
+    padding: 12px 6px;
+  }
+
+  .player-placeholder {
+    width: 46px;
+    height: 46px;
+  }
+
+  .bottom-nav {
+    min-height: 66px;
+  }
+
+  .nav-icon {
+    font-size: 18px;
+  }
+
+  .nav-item {
+    font-size: 9px;
+  }
+}
