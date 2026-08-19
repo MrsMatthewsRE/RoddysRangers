@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Team | Roddy's Rangers</title>
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/mobile.css">
+</head>
+
+<body>
+
+  <!-- TOP HEADER -->
+  <header class="top-header">
+
+    <div class="club-brand">
+      <img
+        src="../images/Roddys.png"
+        alt="Roddy's Rangers badge"
+        class="club-badge"
+      >
+
+      <div>
+        <h1>Roddy's Rangers</h1>
+        <p>Official Team App</p>
+      </div>
+    </div>
+
+    <a
+      class="settings-button"
+      href="settings.html"
+      aria-label="Settings"
+    >
+      ⚙
+    </a>
+
+  </header>
+
+
+  <!-- TEAM PAGE -->
+  <main class="home-container">
+
+    <section class="team-page-header">
+
+      <div class="team-tabs">
+        <button class="team-tab active" type="button">
+          Players
+        </button>
+
+        <button class="team-tab" type="button">
+          Team Management
+        </button>
+      </div>
+
+    </section>
+
+
+    <!-- DYNAMIC PLAYER AREA -->
+    <section>
+
+      <div
+        id="players-grid"
+        class="players-grid"
+      >
+
+        <div class="empty-team-state">
+          <h2>No players yet</h2>
+
+          <p>
+            Players created by an administrator will appear here automatically.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FIXED BOTTOM NAV -->
+  <nav class="bottom-nav">
+
+    <a href="../index.html" class="nav-item">
+      <span class="nav-icon">⌂</span>
+      <span>Home</span>
+    </a>
+
+    <a href="team.html" class="nav-item active">
+      <span class="nav-icon">♙</span>
+      <span>Team</span>
+    </a>
+
+    <a href="matches.html" class="nav-item">
+      <span class="nav-icon">▣</span>
+      <span>Matches</span>
+    </a>
+
+    <a href="league.html" class="nav-item">
+      <span class="nav-icon">🏆</span>
+      <span>League</span>
+    </a>
+
+    <a href="stats.html" class="nav-item">
+      <span class="nav-icon">▥</span>
+      <span>Stats</span>
+    </a>
+
+    <button
+      class="nav-item more-button"
+      type="button"
+    >
+      <span class="nav-icon">☰</span>
+      <span>More</span>
+    </button>
+
+  </nav>
+
+
+  <script src="../js/team.js"></script>
+
+</body>
+</html>
